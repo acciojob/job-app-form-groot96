@@ -7,56 +7,56 @@
 
   <body>
     <!-- the entire body must be written by student -->
-    <form action="/action_page.php" method="get" target="_blank">
-      <div>
+    <form  method="get">
+      
 
         <label for="name">Name</label>
-        <input type="text" id="name" required />
-      </div>
+        <input type="text" id="name" required >
+    
 
-      <div>
+      
         <label for="email">Email</label>
-        <input type="email" id="email" required />
-      </div>
+        <input type="text" id="email" required >
+      
 
-      <div>
-        <label for="gender" id="gender">Gender </label>
-        <input type="radio" name="gender" id="" />Male
-        <input type="radio" name="gender" id="" />Female
-        <input type="radio" name="gender" id="" />Other
-      </div>
+      
+        <label for="gender">Gender </label>
+        <input type="radio" name="gender" id="gender" required>Male
+        <input type="radio" name="gender" id="gender" required>Female
+       
+    
 
-      <div>
+      
         <label for="laptop" id="laptop">Laptop Brands</label>
-		<select id="laptop">
+		<select id="laptop" required>
 			<option >Apple</option>
 			<option >Asus</option>
 			<option >HP</option>
 		</select>
-      </div>
-
-	  <div>
+     
+	 
 		<label for="age">Age</label>
 		<input type="number" id="age" required>
 		
-	  </div>
+	 
 
-	  <div>
-		<label for="age">DOB </label>
+	  
+		<label for="dob">DOB </label>
 		<input type="date" id="dob" required>
-	  </div>
+	  
 
-	  <div>
+	  
 		<label for="password">Password </label>
 		<input type="password" id="password" required>
-	  </div>
+	  
 
-	  <div>
-		<label for="portfolio" >Portfolio URL</label>
+	 
+		<label for="portfolio" >Portfolio</label>
 		<input type="url" id="portfolio" required>
-	  </div>
+	  
 
-      <button id="btn">Submit</button>
+      <label for="submit"></label>
+	  <button type="button" id="submit">Submit</button>
     </form>
     <script type="text/javascript" src="./script.js"></script>
   </body>
