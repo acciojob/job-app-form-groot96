@@ -1,2 +1,47 @@
+.red-star{
+    color: red;
+}
+#name{
+   
+    margin: 8px;
+    padding: 5px;
+}
+#email{
+    margin: 8px;
+    padding: 5px;
+}
+#password{
+    margin: 8px;
+    padding: 5px;
+}
+#age{
+    margin: 8px;
+    padding: 5px;
+}
+#dob{
+    margin: 8px;
+    padding: 5px;
+}
+#gender{
+    margin: 8px;
+    padding: 5px;
+
+}
+#laptop{
+    margin-top: 8px;
+    padding: 5px;
+
+}
+#portfolio{
+    margin-top: 8px;
+    padding: 5px;
+
+}
+#btn{
+    margin-top: 8px;
+    padding: 6px;
+    
+
+}
 
 /* Your CSS Code here. */
